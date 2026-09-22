@@ -73,7 +73,7 @@ export default function Navbar() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-500 to-violet-600 flex items-center justify-center shadow-glow-purple">
               <Code2 size={16} className="text-white" />
             </div>
-            <span className="font-display font-bold text-white text-lg tracking-tight">
+            <span className="font-display font-bold text-white text-lg tracking-tight whitespace-nowrap">
               Nidhisha<span className="text-purple-400"> N.</span>
             </span>
           </motion.a>
