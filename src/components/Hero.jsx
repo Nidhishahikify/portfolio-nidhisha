@@ -191,7 +191,7 @@ export default function Hero() {
           {/* Name */}
           <motion.h1 variants={item} className="font-display font-black text-5xl sm:text-6xl md:text-7xl xl:text-8xl leading-none text-white mb-4">
             Hi, I'm{' '}
-            <span className="gradient-text text-glow-purple block sm:inline">
+            <span className="gradient-text text-glow-purple whitespace-nowrap">
               Nidhisha N.
             </span>
           </motion.h1>
