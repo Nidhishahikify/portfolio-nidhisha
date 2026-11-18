@@ -11,12 +11,12 @@ export const experiences = [
     period: "Jan 2026 – Jun 2026",
     location: "Puttur, Karnataka",
     description:
-      "Contributing to a Flutter-based NMMS exam preparation application for rural students, with a primary focus on quality assurance — functional testing, defect reporting, and ensuring the app meets expected behaviour.",
+      "Contributing to a Flutter-based NMMS exam preparation application for rural students — performing functional, regression, and UI testing, writing detailed test cases, and managing defects end-to-end.",
     bullets: [
-      "Performing functional and component-level testing of UI screens, navigation, and workflows",
-      "Designing and executing test cases covering positive, negative, and edge case scenarios",
-      "Identifying, documenting, and tracking UI and functional defects to resolution",
-      "Collaborating with the development team to verify bug fixes and prevent regressions",
+      "Designing and executing functional, regression, and UI test cases for Flutter screens and navigation flows",
+      "Performing API-level testing to validate backend data correctness and response handling",
+      "Identifying, documenting, and tracking defects in JIRA through the full defect lifecycle",
+      "Collaborating with developers to verify bug fixes, prevent regressions, and maintain test coverage",
     ],
     color: "cyan",
     icon: "🧪",

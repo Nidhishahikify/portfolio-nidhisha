@@ -50,7 +50,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
-              Computer Science Engineering Student passionate about software quality assurance, manual & automation testing, and building reliable digital products.
+              CSE Student focused on SDET & QA Engineering — writing automated tests, designing test frameworks, and ensuring software ships with zero critical bugs.
             </p>
             <div className="flex gap-3 pt-1">
               {socialLinks.map(({ icon: Icon, href, label }) => (

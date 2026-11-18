@@ -127,9 +127,9 @@ function FloatingOrb({ className, size = 300, color = 'purple', delay = 0 }) {
 
 const typeWords = [
   'SDET',
+  'QA Engineer',
+  'Test Automation Engineer',
   'Manual Tester',
-  'Automation Tester',
-  'Test Engineer',
   'AI/ML Enthusiast',
 ];
 
@@ -205,9 +205,9 @@ export default function Hero() {
 
           {/* Subtitle */}
           <motion.p variants={item} className="text-slate-400 text-lg sm:text-xl max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed">
-            Computer Science Engineering Student with a passion for{' '}
-            <span className="text-white font-medium">software development and test engineering</span>{' '}
-            — writing automated tests, building test frameworks, and ensuring quality at every layer of the stack.
+            Computer Science Engineering Student focused on{' '}
+            <span className="text-white font-medium">Software Development Engineer in Test (SDET)</span>{' '}
+            — building test frameworks, writing automation scripts, and ensuring every release ships with zero critical bugs.
           </motion.p>
 
           {/* CTA buttons */}

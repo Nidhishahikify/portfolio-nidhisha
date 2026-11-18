@@ -6,7 +6,7 @@ const stats = [
   { value: '8.93', label: 'CGPA', icon: GraduationCap, color: 'purple' },
   { value: '3+', label: 'Projects', icon: Code2, color: 'cyan' },
   { value: 'CSE', label: 'Student', icon: Sparkles, color: 'violet' },
-  { value: 'AI', label: 'Enthusiast', icon: Brain, color: 'pink' },
+  { value: 'SDET', label: 'Aspirant', icon: Brain, color: 'pink' },
 ];
 
 const colorMap = {
@@ -85,14 +85,14 @@ export default function About() {
               <div className="space-y-4 text-slate-400 leading-relaxed text-[15px]">
                 <p>
                   I'm a Computer Science Engineering student at Vivekananda College of Engineering and Technology, Puttur,
-                  with a strong academic record (CGPA 8.93) and a focused interest in{' '}
-                  <span className="text-white">Software Development Engineer in Test (SDET)</span> — where coding meets quality.
+                  with a strong academic record (CGPA 8.93) and a focused goal of becoming an{' '}
+                  <span className="text-white">SDET / QA Engineer</span> — someone who codes to break things before users do.
                 </p>
                 <p>
-                  I bridge development and testing — writing <span className="text-white">automated test scripts, designing test frameworks,</span> and performing functional validation to ship software that actually works. My goal is to build the tools that catch bugs before users do.
+                  I write <span className="text-white">automated test scripts, design test cases, perform API testing with Postman,</span> and track defects end-to-end using JIRA. My approach combines the precision of a tester with the mindset of a developer.
                 </p>
                 <p>
-                  Currently interning at <span className="text-purple-300 font-medium">Akanksha Charitable Trust</span> performing component-level testing on a Flutter app, and serving as a <span className="text-purple-300 font-medium">Google Student Ambassador</span> on campus.
+                  Currently interning at <span className="text-purple-300 font-medium">Akanksha Charitable Trust</span> — performing functional and regression testing on a Flutter app — and serving as a <span className="text-purple-300 font-medium">Google Student Ambassador</span> on campus.
                 </p>
               </div>
             </motion.div>
@@ -102,7 +102,7 @@ export default function About() {
               variants={fadeUp(0.3)} initial="hidden" animate={inView ? 'show' : 'hidden'}
               className="flex flex-wrap gap-3"
             >
-              {['Test Automation', 'Selenium', 'Manual Testing', 'CI/CD', 'Python', 'Java'].map(tag => (
+              {['Selenium', 'TestNG', 'Postman', 'JIRA', 'Manual Testing', 'API Testing', 'Python', 'Java'].map(tag => (
                 <span key={tag} className="tech-badge">{tag}</span>
               ))}
             </motion.div>

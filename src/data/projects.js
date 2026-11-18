@@ -8,21 +8,21 @@ export const projects = [
     title: "Multimodal Depression Detection",
     featured: true,
     description:
-      "A machine learning system that processes both image and audio inputs to identify potential depression-related patterns using multimodal feature extraction and classification.",
+      "A machine learning system that processes both image and audio inputs to identify depression-related patterns — with a strong focus on model validation, edge case testing, and pipeline robustness.",
     longDescription:
-      "Developed using Python and ML libraries, this system validates preprocessing pipelines, feature extraction from images and audio, and multimodal fusion before running classification models. Tested across varied input conditions for robustness.",
+      "Developed using Python and ML libraries. Validated preprocessing pipelines, feature extraction from images and audio, and multimodal fusion across varied input conditions. Applied systematic test scenarios to ensure classification reliability.",
     tech: ["Python", "Machine Learning", "Audio Processing", "Image Processing", "Scikit-learn"],
     category: "AI / ML",
-    image: null, // ← add screenshot: '/projects/depression-detection.jpg'
+    image: null,
     githubUrl: "https://github.com/Nidhishahikify/multimodal-depression-detection",
     liveUrl: null,
     color: "from-purple-600 to-violet-700",
     accentColor: "purple",
     highlights: [
-      "Multimodal image + audio input processing",
-      "Feature extraction & fusion pipeline",
-      "ML classification model",
-      "Validated across multiple input conditions",
+      "Multimodal image + audio pipeline testing",
+      "Edge case & boundary condition validation",
+      "ML model accuracy verification",
+      "Systematic input condition test scenarios",
     ],
   },
   {
@@ -30,9 +30,9 @@ export const projects = [
     title: "Skill Connect",
     featured: false,
     description:
-      "A service-booking mobile application connecting skilled professionals with users seeking on-demand services, featuring Firebase authentication, Firestore data management, and an AI-powered feedback summarizer.",
+      "A service-booking mobile app built with Flutter and Firebase — tested end-to-end for functional correctness, auth flows, Firestore sync, and AI feedback summarizer output quality.",
     longDescription:
-      "Built with Flutter and Firebase, Skill Connect handles real-time data sync through Firestore and secure authentication. An integrated AI feedback summarizer generates concise insights from service-provider reviews.",
+      "Built with Flutter and Firebase. Performed functional, integration, and UI testing across booking workflows, authentication, and real-time Firestore data sync. Validated AI feedback summarizer outputs for accuracy and consistency.",
     tech: ["Flutter", "Dart", "Firebase", "Firestore", "AI Integration"],
     category: "Mobile",
     image: null,
@@ -41,10 +41,10 @@ export const projects = [
     color: "from-cyan-600 to-blue-700",
     accentColor: "cyan",
     highlights: [
-      "Firebase Auth & Firestore",
-      "AI-based feedback summarizer",
-      "On-demand service booking",
-      "Cross-platform Flutter app",
+      "End-to-end functional testing",
+      "Firebase Auth & Firestore flow validation",
+      "AI summarizer output quality checks",
+      "Cross-platform UI test coverage",
     ],
   },
   {
@@ -52,9 +52,9 @@ export const projects = [
     title: "SmartTrafficAI",
     featured: true,
     description:
-      "An AI-powered Smart Traffic Prediction and Congestion Analysis System that predicts traffic congestion levels and provides interactive visualizations to support intelligent traffic management.",
+      "An AI-powered Smart Traffic Prediction and Congestion Analysis System — built and tested with React, FastAPI, Python, and ML to deliver reliable real-time traffic insights.",
     longDescription:
-      "Built with React, FastAPI, Python, and Machine Learning. Features congestion prediction using Scikit-learn, an interactive analytics dashboard, hotspot mapping, GPS monitoring, and public transport insights — backed by the IEEE DataPort Urban Traffic Dataset.",
+      "Built with React, FastAPI, Python, and Scikit-learn. Validated ML prediction accuracy, API endpoint correctness via Postman, and frontend data visualisation integrity. Features congestion prediction, hotspot mapping, GPS monitoring backed by the IEEE DataPort Urban Traffic Dataset.",
     tech: ["React", "FastAPI", "Python", "Scikit-learn", "Tailwind CSS", "Chart.js", "Axios"],
     category: "AI / ML",
     image: null,
@@ -63,9 +63,9 @@ export const projects = [
     color: "from-emerald-600 to-teal-700",
     accentColor: "emerald",
     highlights: [
-      "ML-based congestion prediction",
-      "Interactive analytics dashboard",
-      "Hotspot mapping & GPS monitoring",
+      "API endpoint testing with Postman",
+      "ML prediction accuracy validation",
+      "Frontend data integrity checks",
       "FastAPI backend + React frontend",
     ],
   },
